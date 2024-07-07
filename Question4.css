@@ -1,0 +1,30 @@
+button::after{
+    color: blue;
+    box-shadow: solid blue;
+
+   
+}
+
+button::before{
+    color: rgb(28, 193, 135);
+    box-shadow: solid blue;
+   
+    
+}
+
+button{
+    cursor: pointer;
+    background-color: rgb(136, 136, 210);
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    box-shadow:rgb(0, 0, 0);
+    border: none;
+    padding: 5px;
+}
+
+button:hover{
+    background-color: blue;
+    
+}

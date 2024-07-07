@@ -1,0 +1,12 @@
+nav p::before {
+    content: "prem ";
+    color: blue;
+    margin-right: 5px;
+}
+
+nav p::after {
+    content: " kumar";
+    color: red;
+    margin-left: 5px;
+}
+

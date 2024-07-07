@@ -1,0 +1,19 @@
+ul li a{
+    text-decoration: none;
+    
+}
+/* remove the bullet point */
+ul li{
+    list-style-type: none;
+}
+/* child combinator */
+
+nav>ul>li{
+    display: inline;
+  
+}
+
+/* Adjacent sibling combinator*/
+li + li {
+    margin-left: 50px; 
+}
